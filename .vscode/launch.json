@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+      {
+        "name": ".NET Core Launch (console)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "C:/Users/Lenovo/Reseloggen/bin/Debug/net7.0/Reseloggen.dll",
+        "args": [],
+        "cwd": "C:/Users/Lenovo/Reseloggen/",
+        "stopAtEntry": false,
+        "externalConsole":true ,
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "sourceFileMap": {
+          "/Views": "C:/Users/Lenovo/Reseloggen//Views"
+        },
+        "logging": {
+          "moduleLoad": false,
+          "exception": false
+        },
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  
+  
